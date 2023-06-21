@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *print_alphabet - Prints lowercase alphabets
+ * print_alphabet - Print alphabet a-z lowercase
  *
- * Return: Always 0.
  */
 
 void print_alphabet(void)
@@ -15,4 +14,5 @@ void print_alphabet(void)
 		_putchar(i);
 	}
 	_putchar('\n');
+
 }

@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-*_abs - check the absolute number of an integer
- *@r : character tp be checked
- * return: r is positive . -r otherwise
+ * _abs - check the absolute number of an integer
+ * @r: integer to be checked
+ *
+ * Return: the absolute value of 'r'
  */
 
 int _abs(int r)
@@ -16,5 +17,4 @@ int _abs(int r)
 	{
 		return (-r);
 	}
-
 }

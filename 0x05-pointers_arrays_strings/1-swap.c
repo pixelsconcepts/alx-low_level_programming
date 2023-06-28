@@ -2,7 +2,7 @@
 
 /**
  * swap_int - Swaps the value of to int parameters a and b
- * @a: first parament 
+ * @a: first parament
  * @b: second parament
  */
 

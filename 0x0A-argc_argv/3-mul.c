@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			product *= atoi(argv[i]);
+			product *= strtol(argv[i], NULL, 10);
 		}
 		printf("%d\n", product);
 	}

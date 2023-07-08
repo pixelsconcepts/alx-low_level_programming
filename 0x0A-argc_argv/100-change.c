@@ -14,9 +14,9 @@ int give_change(int money);
 int main(int argc, char *argv[])
 {
 	int money, change;
-	
+
 	money = change = 0;
-	
+
 	if (argc != 2)
 	{
 		printf("Error\n");

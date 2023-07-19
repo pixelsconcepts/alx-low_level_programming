@@ -1,1 +1,4 @@
-#define ABS(X) ((X) * 10)
+#ifndef FUNCTION_LIKE_MACRO_H
+#define FUNCTION_LIKE_MACRO_H
+#define ABS(x) ((x) * 10)
+#endif

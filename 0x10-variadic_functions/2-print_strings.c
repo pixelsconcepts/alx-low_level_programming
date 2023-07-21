@@ -8,6 +8,7 @@
  * print_strings - Print string separated with separator
  * @separator: Character to separated printed strings
  * @n: Number of Argument passed in the function
+ *
  * Return: Always 0.
  */
 
@@ -28,7 +29,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", str);
 		}
 
-		if (separator != NULL && i < n - 1)
+		if (separator != NULL && i < n - 1 && str != NULL)
 		{
 			printf("%s", separator);
 		}

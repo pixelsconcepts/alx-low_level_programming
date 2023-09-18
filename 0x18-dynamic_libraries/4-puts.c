@@ -1,12 +1,14 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Text on standard output.
- * Return: 0
+ * _puts - minic the stdio version of puts
+ * @str: the value to process to the stdout.
  */
-
-int main(void)
+void _puts(char *str)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	while (*str > 0)
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 }

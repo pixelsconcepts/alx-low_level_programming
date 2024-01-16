@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "search_algos.h"
 
 /**
  * linear_search - linear cearch algorithm

@@ -1,5 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "search_algos.h"
 
 int bin_search(int *array, size_t min, size_t max, int value);
 void print_array(int *array, size_t start, size_t end);
